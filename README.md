@@ -30,8 +30,8 @@ client.setAuth('CLIENT ID', 'CLIENT AUTH', 'REDIRECT URI');
 client.getAuthUrl()
 ```
 
-Visit the URL returned by `getAuthUrl()` *in a browser authenticated as the ACO
-admin user you created*; check the box to indicate consent, and submit the form.
+Visit the URL returned by `getAuthUrl()` **in a browser authenticated as the ACO
+admin user you created**; check the box to indicate consent, and submit the form.
 
 The authorization server will redirect the browser to the redirect URI
 specified in the application; copy the URI, including all generated query
