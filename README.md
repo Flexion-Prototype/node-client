@@ -1,16 +1,7 @@
-This is meant to be a spare framework to kick start ideas on how the Beneficiary API might be interacted with. This client code isn't meant for production.
-
-We encourage this client to be molded, changed, or forked for the actual API implementation if changes are desired.
-
-To use this client, first download and run `npm install`.
-
-Next, run `npm start`
-
-Then in the console, set the URL of the API `client.setBaseUrl(YOUR URL)`.
-
-Kickstart the interaction, `client.getBulkRequest(ACO ID)`
+This client has been forked from https://github.com/cmsuser1/node-client
 
 There are assumptions with this default client. The client has a built-in workflow that can be changed if desired.
+This client requires Node version v10.1.0
 
 # Flexion prototype workflow
 
@@ -25,6 +16,7 @@ URI used when requesting grants and tokens _must_ match the one configured on
 the application _exactly_.
 
 ```
+npm install
 npm start
 
 // Set to the appropriate Flexion prototype instance:
